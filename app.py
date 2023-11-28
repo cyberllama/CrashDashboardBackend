@@ -14,6 +14,10 @@ CORS(app)
 baseUrl = "https://phl.carto.com/api/v2/"
 ga = "2.159128115.869140587.1676312538-1066601619.1667858192"
 
+@app.route("/")
+def hello():
+    return "Welcome to the Philadelphia Crashdashboard Backend"
+
 @app.route("/opendataphilly")
 def get_open_data_phily():
     fromDate = request.args.get('from')
