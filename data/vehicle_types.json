@@ -1,0 +1,2482 @@
+[
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Front-end loader"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Front-end loader"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto ",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicyclist"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Motorcycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicyclist"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Dirt-bike"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Bicyclist",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "unk",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Trolley car"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto ",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Scooter"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicyclist"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Train",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Train",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "Auto (Police)",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Train",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Van",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Train",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Quad",
+        "veh2": "Tractor-Trailer"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Train",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Dirtbike"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "School Bus"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Train",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Tractor-Trailer"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Trolley Car",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Tree"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Bus",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Tree"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": null
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Bus",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Truck",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Septa bus",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bus"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Mini-bike"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": null
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Bike",
+        "veh2": "Parked auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "T/T"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Ground"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Moped",
+        "veh2": "Parked auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bus"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Mini-bike"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Trolley car"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked TT"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "T/T",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Scooter"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bus"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bus"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Bus",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C and PED"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C and PED"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Tree"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Tree"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian on scooter"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Dirt-bike"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Ped on skateboard"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "ATV"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Scooter"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "ATV",
+        "veh2": "Parked"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Truck"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Bus",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Ambulance",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Tow truck",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Tree"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked autos"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto ",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto ",
+        "veh2": "Parked"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicyclist"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicyclist"
+    },
+    {
+        "veh1": "Auto ",
+        "veh2": "Bicyclist"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicyclist"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto ",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed object"
+    },
+    {
+        "veh1": "Pedestrian",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "E-Scooter"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Motorcycle",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "ATV",
+        "veh2": "Ground"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked veh."
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Dirtbike",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked Trailer"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked Trailer"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Parked Trailer"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Bicycle"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Bike",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "ATV",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Quad",
+        "veh2": "Ground"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "M/C",
+        "veh2": "Auto"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "M/C"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Fixed Object"
+    },
+    {
+        "veh1": "Auto",
+        "veh2": "Pedestrian"
+    }
+]
