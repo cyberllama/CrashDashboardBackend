@@ -1,3 +1,29 @@
+import json
+import urllib.request
+
+from .geo_service import find_and_add_neighborhoods
+from .consts import PEDESTRIAN_CATEGORIES, CYCLIST_CATEGORIES, MOTORCYCLIST_CATEGORIES, POSSIBLE_AUTO_CATEGORIES, OPENDATAPHILLY_BASE_URL, OPENDATAPHILLY_GA
+
+def get_open_data_phily(fromYear, toYear):
+    fromDate = fromYear + "-01-01"
+    toDate = toYear + "-12-31"
+
+    sql = "SELECT objectid, date_, primary_st, secondary_, age, veh1, veh2, point_x, point_y FROM fatal_crashes "
+    sql += "WHERE date_ >= '{}' AND date_ < '{}'".format(fromDate, toDate)
+
+    url = OPENDATAPHILLY_BASE_URL + "sql?q={}&_ga={}".format(sql, OPENDATAPHILLY_GA)
+    print(url)
+
+    url = url.replace(" ", "%20")
+
+    response = urllib.request.urlopen(url)
+    data = response.read()
+    dict = json.loads(data)
+    parsedData = convert_open_data_philly(dict["rows"])
+    parsedData = find_and_add_neighborhoods(
+        parsedData, get_coords=lambda x: (x['point_x'], x['point_y']))
+    return parsedData
+
 def convert_open_data_philly(data):
     crashes = []
 
@@ -62,3 +88,4 @@ def convert_open_data_philly(data):
         }
         crashes.append(crash)
     return crashes
+

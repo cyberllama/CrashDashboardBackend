@@ -1,53 +1,12 @@
-import copy
 import csv
 import json
+
 from collections import defaultdict
 from pathlib import Path
-from typing import List
 
-from model.crash_point import CrashPoint
+from .consts import SEVERITY_HIERARCHY, MODE_HIERARCHY
 
 columns = defaultdict(list) # each value in each column is appended to a list
-
-DEMOGRAPHIC_CATEGORIES = ["totpop2020", "hislat2020", "whitenh202", "blacknh202", "ainh2020", "asnh2020", "hipinh2020", "othernh202", "twoplsnh20"]
-
-MODE_HIERARCHY = {
-    "Pedestrian": 4,
-    "Cyclist": 3,
-    "Motorcyclist": 2,
-    "Motorist": 1
-}
-
-SEVERITY_HIERARCHY = {
-    "Fatality": 2,
-    "Injury":  1
-}
-
-PEDESTRIAN_CATEGORIES = [
-    "Pedestrian", "M/C and PED", "Pedestrian on scooter", "Ped on skateboard", "Scooter", "E-Scooter"
-]
-
-CYCLIST_CATEGORIES = [
-    "Bicyclist", "Bicycle", "Bike"
-]
-
-MOTORCYCLIST_CATEGORIES = [
-    "Motorcycle", "Dirt-bike", "M/C", "Dirtbike", "Quad", "Mini-bike", "Moped", "M/C and PED", "ATV"
-]
-
-MOTORIST_CATEGORIES = [
-    "Auto", "Auto ", "Auto (Police)", "Van", "Tractor-Trailer", "School Bus", "Bus", "Truck", "Septa bus", "T/T", "Ambulance", "Tow truck"
-]
-
-OTHER_VEHICLES = [
-    "Front-end loader", "Trolley car",  "Parked veh.", "Parked auto", "Parked TT",  "Parked autos", "Parked Trailer"
-]
-
-OTHER = [
-    "Fixed Object", "unk", "Train", "Parked", "Tree", "None", "Ground", "Fixed object"
-]
-
-POSSIBLE_AUTO_CATEGORIES = MOTORIST_CATEGORIES + OTHER_VEHICLES + OTHER
 
 def get_mode_hierarchy(incident_list):
     priority_incident = ()
@@ -55,14 +14,14 @@ def get_mode_hierarchy(incident_list):
         if not priority_incident:
             priority_incident = incident
         else:
-            if severity_hierarchy[incident[1]] > severity_hierarchy[priority_incident[1]]:
+            if SEVERITY_HIERARCHY[incident[1]] > SEVERITY_HIERARCHY[priority_incident[1]]:
                 priority_incident = incident
-            elif severity_hierarchy[incident[1]] == severity_hierarchy[priority_incident[1]]:
-                if(mode_hierarchy[incident[0]] > mode_hierarchy[priority_incident[0]]):
+            elif SEVERITY_HIERARCHY[incident[1]] == SEVERITY_HIERARCHY[priority_incident[1]]:
+                if(MODE_HIERARCHY[incident[0]] > MODE_HIERARCHY[priority_incident[0]]):
                     priority_incident = incident
     return priority_incident[0]
 
-def get_crashes_by_year_range(from_year, to_year):
+def get_crashes_from_csv(from_year, to_year):
     crashes = []
     for year in range(from_year, to_year + 1):
         with open("./data/CRASH_PHILADELPHIA_{}.csv".format(year)) as f:
@@ -156,53 +115,8 @@ def get_crashes_by_year_range(from_year, to_year):
                     crashes.append(crash)
     return crashes
 
-
-
-# Returns a CSV as a list of dicts
-def csv_to_dicts(filepath: str) -> List[dict]:
-    path = Path(filepath)
-    with open (path, 'r') as file:
-        return [d for d in csv.DictReader(file)]
-
-# Filters a list of dicts to only include the given fields
-def filter_for_fields(data: List[dict], *fields):
-    filtered_data = []
-    for entry in data:
-        filtered_entry = {f: entry[f] for f in fields}
-        filtered_data.append(filtered_entry)
-    return filtered_data
-
-def output_demographics_by_neighborhood():
-    neighborhood_demographics = {}
-
-    neighborhood_path = Path('data/neighborhoods.geojson')
-    with open(neighborhood_path, 'r') as file:
-        neighborhoods = json.load(file)
-
-    initial_demographic_counts = {}
-    for category in demographic_categories:
-        initial_demographic_counts[category] = 0
-
-    for feature in neighborhoods['features']:
-        neighborhood_demographics[feature['properties']['name']] = copy.copy(initial_demographic_counts)
-        
-    tracts_to_neighborhood = get_tracts_by_neighborhood()
-    data = csv_to_dicts('data/philly_2020_popdemographics_by_tract.csv')
-
-    for row in data:
-        tract_geoid = row['geoid']
-        neighborhood = tracts_to_neighborhood[tract_geoid]
-        
-        for category in demographic_categories:
-            neighborhood_demographics[neighborhood][category] += int(row[category])
-
-    return neighborhood_demographics
-
-
-
-
-        
-
-    
-
+def get_preprocessed_crashes():
+    path = Path(f'./api/data/penndot_parsed.json')
+    with open(path, 'r') as file:
+        return json.load(file)
     

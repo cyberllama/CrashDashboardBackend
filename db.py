@@ -40,7 +40,7 @@ class GenerateDatabaseCmd(Cmd):
         DATABASE_CACHE.mkdir(exist_ok=True)
 
     def _cache_files(self) -> None:
-        for year in range(2003, 2023):
+        for year in range(2002, 2023):
             filename = f"Philadelphia_{year}.zip"
             self._cache_file(filename)
 
