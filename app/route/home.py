@@ -4,8 +4,8 @@ from flask_api.status import *
 
 from flask import Blueprint
 from flasgger import swag_from
-from api.model.welcome import WelcomeModel
-from api.schema.welcome import WelcomeSchema
+from app.model.welcome import WelcomeModel
+from app.schema.welcome import WelcomeSchema
 
 home_api = Blueprint('home_api', __name__)
 

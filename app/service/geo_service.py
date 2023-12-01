@@ -7,13 +7,13 @@ from geojson import Feature, FeatureCollection, Point
 from shapely.geometry import Point, shape
 
 def get_geojson_by_file_name(file_name):
-    path = Path(f'./api/data/geojson/{file_name}.geojson')
+    path = Path(f'./app/data/geojson/{file_name}.geojson')
     print(path)
     with open(path, 'r') as file:
         return json.load(file)
     
 def get_opendataphilly_geojson():
-    from api.service.opendataphilly_service import get_open_data_phily
+    from app.service.opendataphilly_service import get_open_data_phily
     currentYear = datetime.date.today().year
     crashes = get_open_data_phily("2019", str(currentYear))
     return create_feature_collection(crashes)
@@ -29,7 +29,7 @@ def create_feature_collection(crashes):
 def find_and_add_neighborhoods(
         crashes: List[dict],
         get_coords=None) -> List[dict]:
-    path = Path(f'./api/data/geojson/neighborhoods.geojson')
+    path = Path(f'./app/data/geojson/neighborhoods.geojson')
     with open(path, 'r') as file:
         neighborhoods = json.load(file)
 
@@ -61,11 +61,11 @@ def find_and_add_neighborhoods(
     return crashes
 
 def get_tracts_by_neighborhood():
-    neighborhood_path = Path(f'./api/data/neighborhoods.geojson')
+    neighborhood_path = Path(f'./app/data/neighborhoods.geojson')
     with open(neighborhood_path, 'r') as file:
         neighborhoods = json.load(file)
 
-    tracts_path = Path(f'./api/data/tracts.geojson')
+    tracts_path = Path(f'./app/data/tracts.geojson')
     with open(tracts_path, 'r') as file:
         tracts = json.load(file)
 
