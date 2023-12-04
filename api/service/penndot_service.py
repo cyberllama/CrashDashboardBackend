@@ -116,7 +116,7 @@ def get_crashes_from_csv(from_year, to_year):
     return crashes
 
 def get_preprocessed_crashes():
-    path = Path(f'./app/data/penndot_parsed.json')
+    path = Path(f'./api/data/penndot_parsed.json')
     with open(path, 'r') as file:
         return json.load(file)
     

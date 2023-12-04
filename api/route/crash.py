@@ -3,8 +3,8 @@ from flask_api.status import *
 
 from flask import Blueprint
 
-from app.service.penndot_service import get_preprocessed_crashes
-from app.service.opendataphilly_service import get_open_data_phily
+from api.service.penndot_service import get_preprocessed_crashes
+from api.service.opendataphilly_service import get_open_data_phily
 
 crash_api = Blueprint('crash_api', __name__)
 

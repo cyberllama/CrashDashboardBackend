@@ -4,7 +4,7 @@ from flask import request
 from flask_api.status import *
 from flask import Blueprint
 
-from app.service.geo_service import get_geojson_by_file_name, get_opendataphilly_geojson
+from api.service.geo_service import get_geojson_by_file_name, get_opendataphilly_geojson
 
 geojson_api = Blueprint('geojson_api', __name__)
 

@@ -10,7 +10,7 @@ image_api = Blueprint('image_api', __name__)
 @image_api.route('/')
 def get_image():
     name = request.args.get('type')
-    root = Path(f'./app/images').resolve()
+    root = Path(f'./api/images').resolve()
     file = (root / f'{name}.png').resolve()
     if not root.exists():
         return abort(HTTP_500_INTERNAL_SERVER_ERROR)
