@@ -1,12 +1,47 @@
 import csv
 import json
+import sqlite3
 
+from io import StringIO
 from collections import defaultdict
 from pathlib import Path
 
-from .consts import SEVERITY_HIERARCHY, MODE_HIERARCHY
+from .consts import SEVERITY_HIERARCHY, MODE_HIERARCHY, MODE_SEVERITY_FIELD_MAPPING
 
 columns = defaultdict(list) # each value in each column is appended to a list
+
+def get_csv_from_qeury(query):
+    connection = sqlite3.connect('./db/philadelphia.db')
+    cursor = connection.cursor()
+    rows = cursor.execute(query).fetchall()
+    print(len(rows))
+    column_names = list(map(lambda x: x[0], cursor.description))
+    csv = convert_crashes_to_csv(column_names, rows)
+    return csv
+
+def convert_crashes_to_csv(column_names, crashes):
+    si = StringIO()
+    csv_writer = csv.writer(si)
+    csv_writer.writerow(column_names)
+    csv_writer.writerows(crashes)
+    return si
+
+def construct_crash_query_from_filters(from_year, to_year, modes, severities):
+    def add_clause(clause, condition):
+        return clause + f" {condition} "
+    
+    query = "SELECT * FROM CRASH WHERE "
+    query += add_clause(f"(CRASH_YEAR >= {from_year} AND CRASH_YEAR <= {to_year})", "AND")
+    query += "("
+
+    for mode in modes:
+        for severity in severities:
+            query += add_clause(f"{MODE_SEVERITY_FIELD_MAPPING[(mode, severity)]} > 0", "OR")
+    
+    query = query[:-4]
+    query += ")"
+
+    return query
 
 def get_mode_hierarchy(incident_list):
     priority_incident = ()
@@ -45,21 +80,21 @@ def get_crashes_from_csv(from_year, to_year):
 
                 incident_list = []
 
-                for x in range(ped_death_total):
+                for _ in range(ped_death_total):
                     incident_list.append(("Pedestrian", "Fatality"))
-                for x in range(bike_death_total):
+                for _ in range(bike_death_total):
                     incident_list.append(("Cyclist", "Fatality"))
-                for x in range(mcycle_death_total):
+                for _ in range(mcycle_death_total):
                     incident_list.append(("Motorcyclist", "Fatality"))
-                for x in range(vehicle_death_total):
+                for _ in range(vehicle_death_total):
                     incident_list.append(("Motorist", "Fatality"))
-                for x in range(ped_inj_total):
+                for _ in range(ped_inj_total):
                     incident_list.append(("Pedestrian", "Injury"))
-                for x in range(bike_inj_total):
+                for _ in range(bike_inj_total):
                     incident_list.append(("Cyclist", "Injury"))
-                for x in range(mcycle_inj_total):
+                for _ in range(mcycle_inj_total):
                     incident_list.append(("Motorcyclist", "Injury"))
-                for x in range(vehicle_inj_total):
+                for _ in range(vehicle_inj_total):
                     incident_list.append(("Motorist", "Injury"))
 
                 if(total_incidents > 0):

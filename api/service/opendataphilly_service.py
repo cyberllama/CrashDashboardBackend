@@ -4,25 +4,50 @@ import urllib.request
 from .geo_service import find_and_add_neighborhoods
 from .consts import PEDESTRIAN_CATEGORIES, CYCLIST_CATEGORIES, MOTORCYCLIST_CATEGORIES, POSSIBLE_AUTO_CATEGORIES, OPENDATAPHILLY_BASE_URL, OPENDATAPHILLY_GA
 
-def get_open_data_phily(fromYear, toYear):
-    fromDate = fromYear + "-01-01"
-    toDate = toYear + "-12-31"
+def get_open_data_phily(from_year, to_year):
+    fromDate = from_year + "-01-01"
+    toDate = to_year + "-12-31"
 
     sql = "SELECT objectid, date_, primary_st, secondary_, age, veh1, veh2, point_x, point_y FROM fatal_crashes "
     sql += "WHERE date_ >= '{}' AND date_ < '{}'".format(fromDate, toDate)
 
-    url = OPENDATAPHILLY_BASE_URL + "sql?q={}&_ga={}".format(sql, OPENDATAPHILLY_GA)
-    print(url)
+    dict = query_open_data_philly(sql)
+    parsedData = convert_open_data_philly(dict["rows"])
+    parsedData = find_and_add_neighborhoods(
+        parsedData, get_coords=lambda x: (x['point_x'], x['point_y']))
+    return parsedData
 
+def get_open_data_philly_report(from_year, to_year, modes):
+    from_date = from_year + "-01-01"
+    to_date = to_year + "-12-31"
+
+    modes_to_query = []
+    if "pedestrian" in modes:
+        modes_to_query.append(PEDESTRIAN_CATEGORIES)
+    if "cyclist" in modes:
+        modes_to_query.append(CYCLIST_CATEGORIES)
+    if "motorcyclist" in modes:
+        modes_to_query.append(MOTORCYCLIST_CATEGORIES)
+    if "motorist" in modes:
+        modes_to_query.append(POSSIBLE_AUTO_CATEGORIES)
+
+    modes_in_clause = ', '.join(['"{}"'.format(value) for value in modes_to_query])
+    sql = "SELECT * FROM fatal_crashes "
+    sql += "WHERE (date_ >= '{}' AND date_ < '{}') ".format(from_date, to_date)
+    sql += f" AND (veh1 IN ({modes_in_clause}) OR veh2 IN ({modes_in_clause})"
+
+    print(sql)
+    dict = query_open_data_philly(sql)
+    print(dict)
+
+def query_open_data_philly(sql):
+    url = OPENDATAPHILLY_BASE_URL + "sql?q={}&_ga={}".format(sql, OPENDATAPHILLY_GA)
     url = url.replace(" ", "%20")
 
     response = urllib.request.urlopen(url)
     data = response.read()
     dict = json.loads(data)
-    parsedData = convert_open_data_philly(dict["rows"])
-    parsedData = find_and_add_neighborhoods(
-        parsedData, get_coords=lambda x: (x['point_x'], x['point_y']))
-    return parsedData
+    return dict
 
 def convert_open_data_philly(data):
     crashes = []

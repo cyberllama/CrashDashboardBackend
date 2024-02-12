@@ -40,3 +40,20 @@ POSSIBLE_AUTO_CATEGORIES = MOTORIST_CATEGORIES + OTHER_VEHICLES + OTHER
 
 OPENDATAPHILLY_BASE_URL = "https://phl.carto.com/api/v2/"
 OPENDATAPHILLY_GA = "2.159128115.869140587.1676312538-1066601619.1667858192"
+
+OPENDATAPHILLY_FIELDS = [
+    "cartodb_id", "the_geom", "the_geom_webmercator", "objectid", "year", "district", "dc_number", "date_", "primary_st", "secondary_", "age",
+    "sex", "crash_type" , "hit_____ru", "veh1", "veh2", "arrest_yes", "investigat", "dc_key", "point_x", "point_y"
+]
+
+MODE_SEVERITY_FIELD_MAPPING = {
+    ("pedestrian", "fatality"): "PED_DEATH_COUNT",
+    ("pedestrian", "injury"): "PED_SUSP_SERIOUS_INJ_COUNT",
+    ("cyclist", "fatality"): "BICYCLE_DEATH_COUNT",
+    ("cyclist", "injury"): "BICYCLE_SUSP_SERIOUS_INJ_COUNT",
+    ("motorcyclist", "fatality"): "MCYCLE_DEATH_COUNT",
+    ("motorcyclist", "injury"): "MCYCLE_SUSP_SERIOUS_INJ_COUNT",
+    ("motorist", "fatality"): "(FATAL_COUNT - PED_DEATH_COUNT - BICYCLE_DEATH_COUNT - MCYCLE_DEATH_COUNT)",
+    ("motorist", "injury"): "(SUSP_SERIOUS_INJ_COUNT - PED_SUSP_SERIOUS_INJ_COUNT - BICYCLE_SUSP_SERIOUS_INJ_COUNT - MCYCLE_SUSP_SERIOUS_INJ_COUNT)"
+}
+
