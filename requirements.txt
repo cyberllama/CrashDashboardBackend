@@ -10,6 +10,7 @@ Flask-API==3.1
 Flask-Cors==3.0.10
 flask-marshmallow==0.15.0
 geojson==3.1.0
+gunicorn==20.0.4
 idna==3.4
 isort==5.12.0
 itsdangerous==2.1.2
